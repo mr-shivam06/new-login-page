@@ -1,0 +1,29 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+.env
+
+# Django-specific
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# IDE-specific
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Test-related
+.coverage
+*.pytest_cache/
+
+# Compiled assets
+*.css.map
+*.js.map
+node_modules/
